@@ -1,0 +1,31 @@
+# Gradle & build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+calendar/build/
+core/build/
+data/build/
+lunar/build/
+
+# Local configuration & toolchain
+local.properties
+.toolchain/
+keystore/
+*.jks
+*.keystore
+signing.properties
+
+# IDE & OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local APK binaries
+*.apk
+*.ap_
+*.aab

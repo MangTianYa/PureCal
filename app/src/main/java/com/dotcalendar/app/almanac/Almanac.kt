@@ -1,0 +1,40 @@
+package com.dotcalendar.app.almanac
+
+data class Almanac(
+    val solarText: String,
+    val weekday: String,
+    val lunarText: String,
+    val monthDay: String,
+    val ganZhiYear: String,
+    val ganZhiMonth: String,
+    val ganZhiDay: String,
+    val zodiac: String,
+    val constellation: String,
+    val jieQi: String,
+    val festivals: List<String>,
+    val yi: List<String>,
+    val ji: List<String>,
+    val chong: String,
+    val sha: String,
+    val zhiXing: String,
+    val tianShen: String,
+    val tianShenType: String,
+    val tianShenLuck: String,
+    val jiShen: List<String>,
+    val xiongSha: List<String>,
+    val pengZu: String,
+    val taiShen: String,
+    val naYin: String,
+    val xiu: String,
+    val xiuLuck: String,
+    val liuYao: String,
+    val wuHou: String,
+    val yueXiang: String,
+    val positions: List<AlmanacPosition>,
+    val dayLu: String,
+)
+
+data class AlmanacPosition(
+    val label: String,
+    val value: String,
+)
